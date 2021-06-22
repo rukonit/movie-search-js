@@ -1,4 +1,5 @@
-# movie-search-js
+# movie-search-js app
+This is a very basic app I have coded to demonstrate the power of fetch in JavaScript along with ASYNC and AWAIT that resolves a promise.
 
 # Link
 
