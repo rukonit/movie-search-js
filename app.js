@@ -11,7 +11,7 @@ form.addEventListener('submit', (e)=> {
     const URLparams = new URLSearchParams;
     URLparams.append('q', searchText)
 
-    const res = await fetch('http://api.tvmaze.com/search/shows?'+URLparams);
+    const res = await fetch('https://api.tvmaze.com/search/shows?'+URLparams);
     const data = await res.json();
     makeImages(data);
     
